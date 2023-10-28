@@ -1,0 +1,78 @@
+body {
+    position: relative;
+}
+.test-item {
+    padding: 30px 100px 30px 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.head {
+    display: flex;
+    align-items: baseline;
+    column-gap: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAAAAA;
+    margin-bottom: 20px;
+}
+.var {
+    padding: 5px 30px;
+    border-radius: 1000px;
+    border-radius: 1000px;
+    border: 1px solid #AAAAAA;
+    width: fit-content;
+    cursor: pointer;
+    transition: .2s;
+}
+.var:hover {
+    background-color: #9BC5FF;
+    border-color: #9BC5FF;
+}
+.var.chosed {
+    background-color: #0068F8;
+    border-color: #0068F8;
+}
+.var.chosed p {
+    color: #fff;
+}
+.var.chosed:hover {
+    border-color: transparent;
+}
+.wrapper {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    backdrop-filter: blur(20px);
+}
+.modal-window {
+    background-color: #fff;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 30px 50px;
+}
+.links {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+.links a, .links div {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+}

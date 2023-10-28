@@ -1,0 +1,28 @@
+h3:first-child {
+    margin-bottom: 10px;
+}
+p:first-child {
+    margin-bottom: 60px;
+}
+h5 {
+    font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+margin-bottom: 30px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+.step p {
+    max-width: 671px;;
+}
+.desc {
+    width: 340px;
+    height: 340px;
+    margin-top: 20px;
+}
