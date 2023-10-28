@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'VelaSansGX';
-    src: url('/Users/Slava/Library/Fonts/VelaSans-GX.ttf');
+    src: url('VelaSans-GX.ttf');
 }
 body {
     font-family: 'VelaSansGX';
